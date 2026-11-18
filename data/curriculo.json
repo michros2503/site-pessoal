@@ -1,22 +1,77 @@
 {
   "nome": "Michele Rodrigues Chrostowski",
-  "titulo": "Bacharel em Ciências Contábeis · Analista de Suporte Tributário Sênior",
-  "resumo": "Há mais de 14 anos trabalho com sistemas ERP para órgãos públicos, ajudando prefeituras a usar o sistema com qualidade e dentro da legislação. Atuo em suporte, treinamento, implantação, levantamento de requisitos e testes de versão.",
+  "titulo": "Analista de Testes & QA Pleno · Testes manuais e automatizados com Playwright",
+  "resumo": "Analista de Testes e QA na Thema Informática, nos módulos de Tributação e Protocolo de sistemas de gestão pública (ERP/GRP). Combino mais de uma década de vivência em suporte e contabilidade pública com testes manuais e automatizados, o que me permite entender a regra de negócio que estou validando. Desenvolvo testes end-to-end em JavaScript com Playwright, valido APIs com Postman, uso Git no dia a dia e trabalho com equipes ágeis. Curso Análise e Desenvolvimento de Sistemas para aprofundar arquitetura, requisitos e desenvolvimento.",
   "contato": {
     "email": "michelechros@gmail.com",
     "local": "Porto Alegre, RS",
     "linkedin": "https://www.linkedin.com/in/michelerodrigues-chrostowski-7496134b"
   },
   "experiencias": [
-    { "cargo": "Analista de Suporte Tributário Sênior", "empresa": "Thema Informática", "periodo": "fev/2020 – atual", "texto": "Suporte, treinamento e consultoria no Thema/ERP Pública (ISSQN, IPTU, taxas, arrecadação, NFS-e, protocolo, cobrança e execução fiscal). Levantamento de requisitos, análises de regra de negócio e testes de versão." },
-    { "cargo": "Analista de Suporte Contábil", "empresa": "IPM Sistemas", "periodo": "set/2019 – dez/2019", "texto": "Treinamento e implantação do módulo contábil (financeiro, contábil e orçamento) como técnica residente na Prefeitura de Guaíba." },
-    { "cargo": "Consultoria e Suporte", "empresa": "Integrate Consultoria Empresarial (ITS Group)", "periodo": "jan/2018 – ago/2019", "texto": "Coordenação de equipe de suporte, consultoria e implantação com SAP Business One: contas a pagar e receber, conciliação bancária, impostos e faturamento." },
-    { "cargo": "Analista de Suporte Contábil Sênior", "empresa": "Thema Informática", "periodo": "mai/2012 – jan/2018", "texto": "Suporte e treinamento nos módulos contábil, financeiro e orçamentário do Thema/ERP Pública, incluindo conferência de balanço, conciliação bancária e envio de dados ao tribunal de contas." },
-    { "cargo": "Financeiro", "empresa": "Cápsula Cinematográfica Ltda", "periodo": "jun/2009 – dez/2011", "texto": "Contas a receber e a pagar, conciliação bancária, cálculo de impostos e faturamento." }
+    {
+      "cargo": "Analista de Testes (QA) Pleno",
+      "empresa": "Thema Informática",
+      "periodo": "mar/2023 – atual",
+      "texto": "Garantia de qualidade dos módulos de Tributação e Protocolo do sistema Thema/ERP Pública. Planejamento e execução de testes manuais e automatizados para validar regras de negócio complexas; scripts end-to-end em JavaScript, Node.js e Playwright; testes de APIs com Postman; Git para versionamento, branches e pull requests; participação em planejamento, refinamento de backlog e homologação de versões em times ágeis."
+    },
+    {
+      "cargo": "Analista de Suporte Tributário Sênior",
+      "empresa": "Thema Informática",
+      "periodo": "fev/2020 – fev/2023",
+      "texto": "Suporte, treinamento e consultoria no Thema/ERP Pública (ISSQN, IPTU, taxas, arrecadação, NFS-e, protocolo, cobrança e execução fiscal). Levantamento de requisitos, análises de regra de negócio e testes de versão."
+    },
+    {
+      "cargo": "Analista de Suporte Contábil",
+      "empresa": "IPM Sistemas",
+      "periodo": "set/2019 – dez/2019",
+      "texto": "Treinamento e implantação do módulo contábil (financeiro, contábil e orçamento) como técnica residente na Prefeitura de Guaíba."
+    },
+    {
+      "cargo": "Consultoria e Suporte",
+      "empresa": "Integrate Consultoria Empresarial (ITS Group)",
+      "periodo": "jan/2018 – ago/2019",
+      "texto": "Coordenação de equipe de suporte, consultoria e implantação com SAP Business One: contas a pagar e receber, conciliação bancária, impostos e faturamento."
+    },
+    {
+      "cargo": "Analista de Suporte Contábil Sênior",
+      "empresa": "Thema Informática",
+      "periodo": "mai/2012 – jan/2018",
+      "texto": "Suporte e treinamento nos módulos contábil, financeiro e orçamentário do Thema/ERP Pública, incluindo conferência de balanço, conciliação bancária e envio de dados ao tribunal de contas."
+    },
+    {
+      "cargo": "Financeiro",
+      "empresa": "Cápsula Cinematográfica Ltda",
+      "periodo": "jun/2009 – dez/2011",
+      "texto": "Contas a receber e a pagar, conciliação bancária, cálculo de impostos e faturamento."
+    }
   ],
   "formacao": [
-    { "curso": "Pós-graduação em Contabilidade Pública", "instituicao": "FADERGS", "periodo": "jul/2015 – dez/2017" },
-    { "curso": "Bacharelado em Ciências Contábeis", "instituicao": "FAPA", "periodo": "2004 – 2011" }
+    {
+      "curso": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      "instituicao": "Ftec",
+      "periodo": "cursando desde jul/2025"
+    },
+    {
+      "curso": "Pós-graduação em Contabilidade Pública",
+      "instituicao": "FADERGS",
+      "periodo": "jul/2015 – dez/2017"
+    },
+    {
+      "curso": "Bacharelado em Ciências Contábeis",
+      "instituicao": "FAPA",
+      "periodo": "2004 – 2011"
+    }
   ],
-  "habilidades": ["Thema/ERP Pública", "ISSQN, IPTU e taxas", "NFS-e", "Execução fiscal", "SAP Business One", "Conciliação bancária", "Treinamento e implantação", "Levantamento de requisitos", "Testes de versão", "Consultoria de processos"]
+  "habilidades": [
+    "Garantia de qualidade (QA)",
+    "Testes manuais e automatizados",
+    "Playwright (JavaScript / Node.js)",
+    "Testes de API com Postman",
+    "Git e pull requests",
+    "Metodologias ágeis (Scrum/Kanban)",
+    "Análise de sistemas e requisitos",
+    "Thema/ERP Pública (ISSQN, IPTU, NFS-e)",
+    "SAP Business One",
+    "Treinamento e implantação"
+  ]
 }
