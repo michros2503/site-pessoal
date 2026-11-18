@@ -1,0 +1,22 @@
+{
+  "nome": "Michele Rodrigues Chrostowski",
+  "titulo": "Bacharel em Ciências Contábeis · Analista de Suporte Tributário Sênior",
+  "resumo": "Há mais de 14 anos trabalho com sistemas ERP para órgãos públicos, ajudando prefeituras a usar o sistema com qualidade e dentro da legislação. Atuo em suporte, treinamento, implantação, levantamento de requisitos e testes de versão.",
+  "contato": {
+    "email": "michelechros@gmail.com",
+    "local": "Porto Alegre, RS",
+    "linkedin": "https://www.linkedin.com/in/michelerodrigues-chrostowski-7496134b"
+  },
+  "experiencias": [
+    { "cargo": "Analista de Suporte Tributário Sênior", "empresa": "Thema Informática", "periodo": "fev/2020 – atual", "texto": "Suporte, treinamento e consultoria no Thema/ERP Pública (ISSQN, IPTU, taxas, arrecadação, NFS-e, protocolo, cobrança e execução fiscal). Levantamento de requisitos, análises de regra de negócio e testes de versão." },
+    { "cargo": "Analista de Suporte Contábil", "empresa": "IPM Sistemas", "periodo": "set/2019 – dez/2019", "texto": "Treinamento e implantação do módulo contábil (financeiro, contábil e orçamento) como técnica residente na Prefeitura de Guaíba." },
+    { "cargo": "Consultoria e Suporte", "empresa": "Integrate Consultoria Empresarial (ITS Group)", "periodo": "jan/2018 – ago/2019", "texto": "Coordenação de equipe de suporte, consultoria e implantação com SAP Business One: contas a pagar e receber, conciliação bancária, impostos e faturamento." },
+    { "cargo": "Analista de Suporte Contábil Sênior", "empresa": "Thema Informática", "periodo": "mai/2012 – jan/2018", "texto": "Suporte e treinamento nos módulos contábil, financeiro e orçamentário do Thema/ERP Pública, incluindo conferência de balanço, conciliação bancária e envio de dados ao tribunal de contas." },
+    { "cargo": "Financeiro", "empresa": "Cápsula Cinematográfica Ltda", "periodo": "jun/2009 – dez/2011", "texto": "Contas a receber e a pagar, conciliação bancária, cálculo de impostos e faturamento." }
+  ],
+  "formacao": [
+    { "curso": "Pós-graduação em Contabilidade Pública", "instituicao": "FADERGS", "periodo": "jul/2015 – dez/2017" },
+    { "curso": "Bacharelado em Ciências Contábeis", "instituicao": "FAPA", "periodo": "2004 – 2011" }
+  ],
+  "habilidades": ["Thema/ERP Pública", "ISSQN, IPTU e taxas", "NFS-e", "Execução fiscal", "SAP Business One", "Conciliação bancária", "Treinamento e implantação", "Levantamento de requisitos", "Testes de versão", "Consultoria de processos"]
+}
