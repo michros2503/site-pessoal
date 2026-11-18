@@ -27,25 +27,24 @@ app.get('/', (req, res) => {
   res.send(pagina('Currículo', `
   <section class="apresentacao"><h1>${esc(cv.nome)}</h1><p class="titulo">${esc(cv.titulo)}</p><p>${esc(cv.resumo)}</p>
   <p class="contato"><a href="mailto:${esc(c.email)}">${esc(c.email)}</a> · <a href="${esc(c.linkedin)}" target="_blank" rel="noopener">LinkedIn</a></p></section>
-  <section><h2>Experiência</h2>${cv.experiencias.map((e) => `<article class="item"><h3>${esc(e.cargo)}</h3>
-  <p class="meta">${esc(e.empresa)} · ${esc(e.periodo)}</p><p>${esc(e.texto)}</p></article>`).join('')}</section>
-  <section><h2>Formação acadêmica</h2>${cv.formacao.map((f) => `<article class="item"><h3>${esc(f.curso)}</h3>
+  <div class="cv-grid"><div><section><h2>Experiência</h2>${cv.experiencias.map((e) => `<article class="item"><h3>${esc(e.cargo)}</h3>
+  <p class="meta">${esc(e.empresa)} · ${esc(e.periodo)}</p><p>${esc(e.texto)}</p></article>`).join('')}</section></div><aside><section><h2>Formação acadêmica</h2>${cv.formacao.map((f) => `<article class="item"><h3>${esc(f.curso)}</h3>
   <p class="meta">${esc(f.instituicao)} · ${esc(f.periodo)}</p></article>`).join('')}</section>
   <section><h2>Habilidades técnicas</h2><ul class="tags">${cv.habilidades.map((h) => `<li>${esc(h)}</li>`).join('')}</ul></section>
   <section><h2>Contato e links</h2><p>E-mail: <a href="mailto:${esc(c.email)}">${esc(c.email)}</a><br>
-  LinkedIn: <a href="${esc(c.linkedin)}" target="_blank" rel="noopener">perfil profissional</a></p></section>`, 'cv'));
+  LinkedIn: <a href="${esc(c.linkedin)}" target="_blank" rel="noopener">perfil profissional</a></p></section></aside></div>`, 'cv'));
 });
 
 app.get('/blog', (req, res) => {
   const posts = lerPosts().sort((a, b) => b.data.localeCompare(a.data));
-  res.send(pagina('Blog', `<h1>Blog</h1>${posts.map((p) => `<article class="item"><h2><a href="/blog/${esc(p.slug)}">${esc(p.titulo)}</a></h2>
-  <p class="meta">${dataBR(p.data)}</p><p>${esc(p.resumo)}</p></article>`).join('')}`, 'blog'));
+  res.send(pagina('Blog', `<h1>Blog</h1><div class="lista">${posts.map((p) => `<article class="item"><h2><a href="/blog/${esc(p.slug)}">${esc(p.titulo)}</a></h2>
+  <p class="meta">${dataBR(p.data)}</p><p>${esc(p.resumo)}</p></article>`).join('')}</div>`, 'blog'));
 });
 
 app.get('/blog/:slug', (req, res) => {
   const p = lerPosts().find((x) => x.slug === req.params.slug);
   if (!p) return res.status(404).send(pagina('Post não encontrado', '<h1>Post não encontrado</h1><p><a href="/blog">Voltar ao blog</a></p>', 'blog'));
-  res.send(pagina(p.titulo, `<article><h1>${esc(p.titulo)}</h1><p class="meta">${dataBR(p.data)}</p>
+  res.send(pagina(p.titulo, `<article class="leitura"><h1>${esc(p.titulo)}</h1><p class="meta">${dataBR(p.data)}</p>
   ${p.texto.split('\n\n').map((t) => `<p>${esc(t)}</p>`).join('')}<p><a href="/blog">Voltar ao blog</a></p></article>`, 'blog'));
 });
 
